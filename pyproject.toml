@@ -1,0 +1,26 @@
+[project]
+name = "comac"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Junfeng Liu"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "rouge-score (==0.0.4)",
+    "datasets (==1.11.0)",
+    "sacrebleu (==1.5.1)",
+    "torchmetrics (==0.7.0)",
+    "tensorboardx (==2.1)",
+    "transformers (==4.10.0)",
+    "protobuf (==3.20.*)",
+    "torch (>=2.6.0,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "setuptools (>=77.0.3,<78.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
